@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #000000;
+}
+
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.custom-blur {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0px 12px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+/* Custom styles for the DatePicker */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0; /* Light background */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.react-datepicker__header {
+  background-color: #74ee15; /* Custom header color */
+  border-bottom: none;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  color: #ffffff; /* White text in the header */
+  font-weight: bold;
+}
+
+.react-datepicker__day {
+  color: #333; /* Darker color for dates */
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.react-datepicker__day:hover {
+  background-color: #74ee15;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.react-datepicker__day--today {
+  background-color: #f8e9d7;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.react-datepicker__day--selected {
+  background-color: #74ee15; /* Selected date */
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.react-datepicker__time-container {
+  background-color: #f0f0f0;
+  border-left: 1px solid #ccc;
+}
+
+.react-datepicker__time-list-item--selected {
+  background-color: #74ee15;
+  color: white;
+}
+
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+  top: 2px;
+  border: none;
+  background-color: transparent;
+}
+
+.react-datepicker__triangle {
+  display: none; /* Hide the triangle */
+}
+
+.react-datepicker__day--keyboard-selected {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.react-datepicker-time__header {
+  color: #fff;
+  padding: 10px 0;
+}
+
+.our-fleets {
+  position: relative;
+  padding: 100px 0;
+}
+
+.next-arrow {
+  top: 35%;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000005b;
+  transition: all ease-in-out 0.4s;
+}
+
+.prev-arrow {
+  top: 35%;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000005b;
+  transition: all ease-in-out 0.4s;
+}
+
+.next-arrow:hover,
+.prev-arrow:hover {
+  background-color: #000000b7;
+}
+
+.next-arrow2 {
+  top: 35%;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000005b;
+  transition: all ease-in-out 0.4s;
+}
+
+.prev-arrow2 {
+  top: 35%;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000005b;
+  transition: all ease-in-out 0.4s;
+}
+
+.next-arrow2:hover,
+.prev-arrow2:hover {
+  background-color: #000000b7;
+}
+
+.works-card1 {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 87%,
+    89% 87%,
+    79% 100%,
+    68% 87%,
+    0 87%
+  );
+}
+
+.works-card2 {
+  clip-path: polygon(
+    89% 13%,
+    100% 13%,
+    100% 100%,
+    0 100%,
+    0 13%,
+    63% 13%,
+    76% 0
+  );
+}
+
+.review-card {
+  color: #5a5a5a;
+  background-color: #dfdfdf;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 85%,
+    75% 86%,
+    75% 100%,
+    54% 86%,
+    0 86%
+  );
+}
+
+@media screen and (max-width: 768px) {
+  .our-fleets {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .next-arrow {
+    top: 30%;
+  }
+
+  .prev-arrow {
+    top: 30%;
+    right: 55px;
+  }
+
+  .next-arrow2 {
+    top: 40%;
+    right: 12px;
+  }
+
+  .prev-arrow2 {
+    top: 40%;
+    right: 55px;
+  }
+}
