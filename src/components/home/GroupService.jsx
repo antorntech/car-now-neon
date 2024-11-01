@@ -41,7 +41,7 @@ const GroupService = () => {
               data-aos-easing="ease-in-sine"
               className="w-full"
             >
-              <div className="flex items-center gap-5 w-full">
+              <div className="flex flex-col md:flex-row items-center gap-5 w-full">
                 <div className="py-1 border-b-2 border-gray-300 w-full">
                   <span className="text-lg font-semibold text-white">
                     Many Pickup Location
@@ -53,7 +53,7 @@ const GroupService = () => {
                   </span>
                 </div>
               </div>
-              <div className="flex items-center gap-5 w-full mt-5">
+              <div className="flex flex-col md:flex-row items-center gap-5 w-full mt-5">
                 <div className="py-1 border-b-2 border-gray-300 w-full">
                   <span className="text-lg font-semibold text-white">
                     Vast Vehicle Selection

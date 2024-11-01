@@ -3,6 +3,24 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <div onClick={onClick} className="next-arrow">
+      <i className=" fa-solid fa-angle-right text-white absolute  slick-icon-bg cursor-pointer z-30 rounded-full"></i>
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <div onClick={onClick} className="prev-arrow">
+      <i className="fa-solid fa-angle-left text-white absolute slick-icon-bg p-2 cursor-pointer z-30"></i>
+    </div>
+  );
+}
+
 const CustomerSay = () => {
   const settings = {
     dots: false,
@@ -12,7 +30,8 @@ const CustomerSay = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -131,8 +150,8 @@ const CustomerSay = () => {
         >
           <Slider {...settings}>
             {reviews.map((review, index) => (
-              <div key={index} className="text-center">
-                <div className="w-full p-3 py-12 relative">
+              <div key={index} className="text-center mt-12 md:mt-0">
+                <div className="w-full p-3 pt-12 relative">
                   <div className="bg-white w-[75px] h-[75px] rounded-full absolute top-[10px] left-1/2 transform translate-x-[-50%] z-50">
                     <img src="/images/quote.png" alt="quote.png" />
                   </div>

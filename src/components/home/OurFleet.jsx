@@ -4,24 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
-function SampleNextArrow(props) {
-  const { onClick } = props;
-  return (
-    <div onClick={onClick} className="next-arrow">
-      <i className="fa-solid fa-angle-right"></i>
-    </div>
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { onClick } = props;
-  return (
-    <div onClick={onClick} className="prev-arrow">
-      <i className="fa-solid fa-angle-left"></i>
-    </div>
-  );
-}
-
 const OurFleet = () => {
   const settings = {
     dots: false,
@@ -31,9 +13,6 @@ const OurFleet = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
-
     responsive: [
       {
         breakpoint: 1024,

@@ -118,7 +118,7 @@ body {
 
 .next-arrow {
   top: 35%;
-  right: 8px;
+  right: -5%;
   width: 50px;
   height: 50px;
   display: flex;
@@ -128,13 +128,13 @@ body {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: #0000005b;
+  background-color: #6d6c6c5b;
   transition: all ease-in-out 0.4s;
 }
 
 .prev-arrow {
   top: 35%;
-  left: 10px;
+  left: -5%;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -145,13 +145,13 @@ body {
   z-index: 9999;
   align-items: center;
   justify-content: center;
-  background-color: #0000005b;
+  background-color: #6d6c6c5b;
   transition: all ease-in-out 0.4s;
 }
 
 .next-arrow:hover,
 .prev-arrow:hover {
-  background-color: #000000b7;
+  background-color: #29d612f3;
 }
 
 .next-arrow2 {
@@ -236,12 +236,19 @@ body {
     padding-bottom: 20px;
   }
   .next-arrow {
-    top: 30%;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    top: 0;
+    right: 12px;
   }
 
   .prev-arrow {
-    top: 30%;
-    right: 55px;
+    top: 0;
+    left: 12px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
   }
 
   .next-arrow2 {
