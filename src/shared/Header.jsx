@@ -148,7 +148,7 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "text-[#74EE15] text-[16px] font-semibold transition duration-300"
-                    : "text-black text-[16px] font-[500] hover:text-[#74EE15] transition duration-300"
+                    : "text-gray-300 text-[16px] font-[500] hover:text-[#74EE15] transition duration-300"
                 }
               >
                 {item.label}
