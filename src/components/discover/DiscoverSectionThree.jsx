@@ -22,10 +22,10 @@ const DiscoverSectionThree = () => {
           </div>
           <div className="w-full md:w-2/3">
             <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
-              <p className="text-2xl md:text-5xl font-bold text-white">
+              <p className="text-3xl md:text-5xl font-bold text-white">
                 Island Enchanting
               </p>
-              <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+              <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
                 Charms
               </p>
               <p className="mt-5 text-2xl text-gray-600">
@@ -43,10 +43,10 @@ const DiscoverSectionThree = () => {
         <div className="w-full flex flex-col md:flex-row md:items-center gap-12 mt-12 md:mt-24 lg:mt-32">
           <div className="w-full md:w-2/3">
             <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
-              <p className="text-2xl md:text-5xl font-bold text-white">
+              <p className="text-3xl md:text-5xl font-bold text-white">
                 Embark on Your
               </p>
-              <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+              <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
                 Malta Adventure
               </p>
               <p className="mt-5 text-2xl text-gray-600">
@@ -75,8 +75,8 @@ const DiscoverSectionThree = () => {
         </div>
         <div className="mt-14 md:mt-8 lg:mt-12">
           <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
-            <p className="text-2xl md:text-5xl font-bold text-white">Our</p>
-            <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+            <p className="text-3xl md:text-5xl font-bold text-white">Our</p>
+            <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
               Partners
             </p>
           </div>

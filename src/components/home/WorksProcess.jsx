@@ -5,9 +5,9 @@ const WorksProcess = () => {
     <div className="w-full px-5 pt-[20px] md:pt-[50px] lg:pt-[100px]">
       <div className="w-full text-center">
         <div data-aos="fade-up" data-aos-duration="1000">
-          <p className="text-2xl md:text-5xl font-bold text-white">
+          <p className="text-3xl md:text-5xl font-bold text-white">
             Rent a Car in Malta <br />
-            <span className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+            <span className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
               and Enjoy
             </span>
           </p>

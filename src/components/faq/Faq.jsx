@@ -34,10 +34,10 @@ const FAQ = () => {
     <div className="w-full px-5 overflow-hidden">
       <div className="max-w-screen-xl mx-auto py-8">
         <div className="w-full">
-          <p className="text-2xl md:text-5xl font-bold text-white">
+          <p className="text-3xl md:text-5xl font-bold text-white">
             Frequently Asked
           </p>
-          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+          <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
             Questions
           </p>
         </div>

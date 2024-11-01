@@ -95,10 +95,10 @@ const AdventureSlider = () => {
           data-aos-duration="1000"
           className="w-full text-center"
         >
-          <p className="text-2xl md:text-5xl font-bold text-white">
+          <p className="text-3xl md:text-5xl font-bold text-white">
             Rent a Car Today and Embark Your
           </p>
-          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+          <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
             Automate Adventure
           </p>
         </div>

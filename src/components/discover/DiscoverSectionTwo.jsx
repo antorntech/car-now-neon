@@ -6,10 +6,10 @@ const DiscoverSectionTwo = () => {
     <div className="w-full px-5 md:px-0 pb-[50px] md:pb-[80px] lg:pb-[100px]">
       <div className="max-w-screen-xl mx-auto">
         <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
-          <p className="text-2xl md:text-5xl font-bold text-white">
+          <p className="text-3xl md:text-5xl font-bold text-white">
             Unleash the Freedom to Explore
           </p>
-          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+          <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
             Automate by Car
           </p>
           <p className="mt-5 text-2xl text-gray-600">

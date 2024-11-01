@@ -98,7 +98,7 @@ const CustomerSay = () => {
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="1000"
-              className="text-2xl md:text-5xl font-bold text-white"
+              className="text-3xl md:text-5xl font-bold text-white"
             >
               What They're Talking
             </p>
@@ -106,7 +106,7 @@ const CustomerSay = () => {
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="1000"
-              className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text"
+              className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text"
             >
               About Queen
             </p>

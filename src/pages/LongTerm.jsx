@@ -27,10 +27,10 @@ const LongTerm = () => {
           </div>
           <div className="w-full md:w-2/3">
             <div data-aos="fade-up" data-aos-duration="1000" className="w-full">
-              <p className="text-2xl md:text-5xl font-bold text-white">
+              <p className="text-3xl md:text-5xl font-bold text-white">
                 Tailored LongTerm
               </p>
-              <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+              <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
                 Rental Plans
               </p>
               <p className="mt-5 text-2xl text-gray-600">
@@ -130,8 +130,8 @@ const LongTerm = () => {
           data-aos-duration="1000"
           className="w-full flex items-center justify-center gap-4"
         >
-          <p className="text-2xl md:text-5xl font-bold text-white">Visit </p>
-          <p className="text-2xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
+          <p className="text-3xl md:text-5xl font-bold text-white">Visit </p>
+          <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
             Us Now
           </p>
         </div>
