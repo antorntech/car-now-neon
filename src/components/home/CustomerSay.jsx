@@ -112,7 +112,12 @@ const CustomerSay = () => {
             </p>
           </div>
           <div>
-            <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              className="text-white"
+            >
               Discover the Rave Reviews for Crown Auto Services - Unveiling the
               Praise!
             </p>
