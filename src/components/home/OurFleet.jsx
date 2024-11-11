@@ -59,8 +59,14 @@ const OurFleet = () => {
     },
     {
       id: 4,
-      category: "suv",
-      name: "SUV Car",
+      category: "luxury",
+      name: "Luxury Car",
+      image: "/images/suv.png",
+    },
+    {
+      id: 5,
+      category: "commercialvehicles",
+      name: "Commercial Vehicles",
       image: "/images/suv.png",
     },
   ];

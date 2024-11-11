@@ -91,34 +91,34 @@ const Partners = () => {
             </div>
             <div className="grid grid-cols-3 md:grid-cols-6 gap-5 mt-5">
               <img
-                src="/images/partners1.png"
+                src="/images/partners1.svg"
                 alt="Nissan"
-                className="w-full h-full p-3 object-contain"
+                className="h-24 md:h-32 object-contain aspect-square filter grayscale"
               />
               <img
-                src="/images/partners2.png"
+                src="/images/partners2.svg"
                 alt="Toyota"
-                className="w-full h-full p-3 object-contain"
+                className="h-24 md:h-32 object-contain aspect-square filter grayscale"
               />
               <img
-                src="/images/partners3.png"
+                src="/images/partners3.svg"
                 alt="Kia"
-                className="w-full h-full p-3 object-contain"
+                className="h-24 md:h-32 object-contain aspect-square filter grayscale"
               />
               <img
-                src="/images/partners4.png"
+                src="/images/partners4.svg"
                 alt="Hyundai"
-                className="w-full h-full p-3 object-contain"
+                className="h-24 md:h-32 object-contain aspect-square filter grayscale"
               />
               <img
-                src="/images/partners5.png"
+                src="/images/partners5.svg"
                 alt="Citroën"
-                className="w-full h-full p-3 object-contain"
+                className="h-24 md:h-32 object-contain aspect-square filter grayscale"
               />
               <img
-                src="/images/partners6.png"
+                src="/images/partners6.svg"
                 alt="Peugeot"
-                className="w-full h-full p-3 object-contain"
+                className="h-24 md:h-32 object-contain aspect-square filter grayscale"
               />
             </div>
           </div>
