@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.sh
+# Local Netlify folder
+.netlify
+
+.vercel
+.tests

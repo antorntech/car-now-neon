@@ -1,6 +1,6 @@
 import { baseURL } from "./useGetData";
 
-const usePostData = async (endpoint, options) => {
+const postData = async (endpoint, options) => {
     try {
         const response = await fetch(`${baseURL}${endpoint}`, { ...options });
 
@@ -15,4 +15,4 @@ const usePostData = async (endpoint, options) => {
     }
 };
 
-export default usePostData;
+export default postData;
