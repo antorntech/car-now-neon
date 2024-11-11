@@ -143,14 +143,17 @@ const Fleet = () => {
     <>
       <div className="p-5">
         <div className="grid grid-cols-1 md:grid-cols-8 gap-5">
-          <div className="w-full md:col-span-2 order-2 md:order-1">
-            <FleetFilters
-              filters={filters}
-              handleFilterChange={handleFilterChange}
-              clearFilters={clearFilters}
-              filterCars={filterCars}
-            />
+          <div className="relative w-full h-full md:col-span-2 order-2 md:order-1">
+            <div className="w-full fixed top-0">
+              <FleetFilters
+                filters={filters}
+                handleFilterChange={handleFilterChange}
+                clearFilters={clearFilters}
+                filterCars={filterCars}
+              />
+            </div>
           </div>
+
           <div className="w-full md:col-span-6 md:col-start-3 order-1 md:order-2">
             <FleetHero />
             <FleetForm
