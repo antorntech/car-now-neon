@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import useGetData, { baseURL } from "../hooks/useGetData";
 import FleetHero from "../components/fleet/FleetHero";
 import FleetForm from "../components/fleet/FleetForm";
@@ -19,7 +19,7 @@ const Fleet = () => {
     pickupLocation: "",
     dropoffLocation: "",
     pickupDate: null,
-    dropoffDate: null,
+    dropoffDate: null
   });
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const Fleet = () => {
     type: [],
     passengers: [],
     transmission: "",
-    doors: [],
+    doors: []
   });
 
   const [filteredCars, setFilteredCars] = useState(data);
@@ -80,7 +80,7 @@ const Fleet = () => {
       type: [],
       passengers: [],
       transmission: "",
-      doors: [],
+      doors: []
     });
     setFilteredCars(data);
   };
@@ -132,55 +132,46 @@ const Fleet = () => {
       pickupLocation: "",
       dropoffLocation: "",
       pickupDate: null,
-      dropoffDate: null,
+      dropoffDate: null
     });
   };
 
-  // if (loading) return <Loader />;
-  // if (error) return <p>{error}</p>;
-
   return (
-    <>
-      <div className="p-5">
-        <div className="grid grid-cols-1 md:grid-cols-8 gap-5">
-          <div className="relative w-full h-full md:col-span-2 order-2 md:order-1">
-            <div className="w-full fixed top-0">
-              <FleetFilters
-                filters={filters}
-                handleFilterChange={handleFilterChange}
-                clearFilters={clearFilters}
-                filterCars={filterCars}
-              />
-            </div>
-          </div>
-
-          <div className="w-full md:col-span-6 md:col-start-3 order-1 md:order-2">
-            <FleetHero />
-            <FleetForm
-              formData={formData}
-              handleFormChange={handleFormChange}
-              locations={locations}
-              handleSubmit={handleSubmit}
-            />
-          </div>
+    <div className="p-5 flex gap-5 flex-wrap lg:flex-nowrap">
+      <div className="min-w-[320px] flex-grow">
+        <FleetFilters
+          filters={filters}
+          handleFilterChange={handleFilterChange}
+          clearFilters={clearFilters}
+          filterCars={filterCars}
+          className="sticky top-4"
+        />
+      </div>
+      <div className="flex-grow">
+        <div className="w-full md:col-start-3 order-1 md:order-2">
+          <FleetHero />
+          <FleetForm
+            formData={formData}
+            handleFormChange={handleFormChange}
+            locations={locations}
+            handleSubmit={handleSubmit}
+          />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-8 gap-5">
-          <div className="w-full md:col-span-2 order-2 md:order-1"></div>
-          <div className="w-full md:col-span-6 md:col-start-3 order-1 md:order-2">
-            <FleetCars cars={filteredCars} />
-            {/* FAQ */}
-            <div className="my-5 md:my-10">
-              <FAQ />
-            </div>
+        <div className="w-full order-2 md:order-1"></div>
+        <div className="w-full md:col-start-3 order-1 md:order-2">
+          <FleetCars cars={filteredCars} />
+          {/* FAQ */}
+          <div className="my-5 md:my-10">
+            <FAQ />
+          </div>
 
-            {/* Long Term Form */}
-            <div className="mb-12">
-              <LongTermForm />
-            </div>
+          {/* Long Term Form */}
+          <div className="mb-12">
+            <LongTermForm />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

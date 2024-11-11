@@ -2,7 +2,7 @@ import React from "react";
 
 const FleetHero = () => (
   <div
-    className="w-full h-[25vh] md:[40vh] lg:h-[65vh] flex justify-center items-center rounded-3xl"
+    className="w-full h-[25vh] md:[40vh] lg:h-[65vh] flex justify-center items-center rounded-2xl"
     style={{
       backgroundImage: `url('/images/hero-bg.png')`,
       backgroundSize: "cover",

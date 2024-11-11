@@ -1,13 +1,15 @@
-import React from "react";
+import cn from '../../utils/cn';
 
+/* eslint-disable react/prop-types */
 const FleetFilters = ({
   filters,
   handleFilterChange,
   clearFilters,
   filterCars,
+  className = ""
 }) => {
   return (
-    <div className="bg-white p-6 rounded-3xl shadow-md w-full">
+    <div className={cn("bg-white p-6 rounded-2xl shadow-md w-full",className)}>
       <div className="flex justify-between items-center mb-6">
         <h3 className="font-semibold text-xl">Filters</h3>
         <button

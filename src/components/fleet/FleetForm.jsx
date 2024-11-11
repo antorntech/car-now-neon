@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -6,10 +6,10 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full flex flex-col md:flex-row items-center gap-4 justify-between mt-5 md:my-10"
+      className="w-full flex flex-wrap items-center gap-4 py-6"
     >
-      <div className="w-full">
-        <label className="block text-gray-700 font-semibold mb-2">
+      <div className="min-w-[200px] flex-grow shrink-0">
+        <label className="block text-gray-200 font-semibold mb-2">
           Pick-up Location
         </label>
         <select
@@ -30,8 +30,8 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         </select>
       </div>
 
-      <div className="w-full">
-        <label className="block text-gray-700 font-semibold mb-2">
+      <div className="min-w-[200px] flex-grow shrink-0">
+        <label className="block text-gray-200 font-semibold mb-2">
           Drop-off Location
         </label>
         <select
@@ -52,8 +52,8 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         </select>
       </div>
 
-      <div className="w-full relative">
-        <label className="block text-gray-700 font-semibold mb-2">
+      <div className="relative min-w-[200px] flex-grow shrink-0">
+        <label className="block text-gray-200 font-semibold mb-2">
           Pick-up Date
         </label>
         <DatePicker
@@ -71,8 +71,8 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         />
       </div>
 
-      <div className="w-full">
-        <label className="block text-gray-700 font-semibold mb-2">
+      <div className="min-w-[200px] flex-grow shrink-0">
+        <label className="block text-gray-200 font-semibold mb-2">
           Drop-off Date
         </label>
         <DatePicker
@@ -90,7 +90,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         />
       </div>
 
-      <div className="w-full">
+      <div className="min-w-[200px] flex-grow shrink-0">
         <button
           type="submit"
           className="w-full whitespace-nowrap bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white font-semibold px-6 py-4 mt-2 md:mt-8 rounded-lg hover:opacity-90 transition duration-300"

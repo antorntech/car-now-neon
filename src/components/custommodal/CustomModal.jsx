@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 const CustomModal = ({ isOpen, onClose, car }) => {
@@ -26,30 +26,32 @@ const CustomModal = ({ isOpen, onClose, car }) => {
             />
           </div>
           <div className="w-full h-full md:col-span-6 md:col-start-5 order-1 md:order-2 flex flex-col justify-center">
-            <div class="space-y-4">
+            <div className="space-y-4">
               <span className="bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white text-sm px-3 py-1 rounded-md">
                 {car.type}
               </span>
 
-              <h1 class="text-3xl font-bold"> {car.brand + " " + car.model}</h1>
-              <p class="text-gray-500">
-                or similar same group vehicle{" "}
-                <span class="text-gray-400">
-                  <i class="fas fa-info-circle"></i>
+              <h1 className="text-3xl font-bold">
+                {car.brand + " " + car.model}
+              </h1>
+              <p className="text-gray-500">
+                or similar same group vehicle
+                <span className="text-gray-400">
+                  <i className="fas fa-info-circle" />
                 </span>
               </p>
 
-              <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-[#59c107]">
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-[#59c107]">
                   € {parseInt(car.daily_rate).toFixed(2)}
                 </span>
-                <span class="text-gray-500 text-md">Price per day</span>
+                <span className="text-gray-500 text-md">Price per day</span>
               </div>
-              <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-[#59c107]">
+              <div className="flex items-center justify-between">
+                <span className="text-2xl font-bold text-[#59c107]">
                   € {parseInt(car.weekly_rate).toFixed(2)}
                 </span>
-                <span class="text-gray-500 text-md">Price per week</span>
+                <span className="text-gray-500 text-md">Price per week</span>
               </div>
 
               <div className="flex">
@@ -64,12 +66,12 @@ const CustomModal = ({ isOpen, onClose, car }) => {
               <hr />
 
               <div>
-                <h3 class="font-semibold">Price Includes</h3>
-                <p class="text-gray-600">Unlimited Mileage</p>
-                <p class="text-gray-600">
-                  €800 Damage Excess{" "}
-                  <span class="text-gray-400">
-                    <i class="fas fa-info-circle"></i>
+                <h3 className="font-semibold">Price Includes</h3>
+                <p className="text-gray-600">Unlimited Mileage</p>
+                <p className="text-gray-600">
+                  €800 Damage Excess
+                  <span className="text-gray-400">
+                    <i className="fas fa-info-circle" />
                   </span>
                 </p>
               </div>
@@ -77,13 +79,13 @@ const CustomModal = ({ isOpen, onClose, car }) => {
               <hr />
 
               <div>
-                <h3 class="font-semibold">Not Included</h3>
-                <p class="text-gray-600">
-                  You can also upgrade your rental options when you've chosen
-                  your vehicle.
+                <h3 className="font-semibold">Not Included</h3>
+                <p className="text-gray-600">
+                  You can also upgrade your rental options when you&apos;e
+                  chosen your vehicle.
                 </p>
-                <p class="text-gray-500 text-sm italic">
-                  We can’t guarantee the exact model you’ll get.
+                <p className="text-gray-500 text-sm italic">
+                  We can&apos;t guarantee the exact model you’ll get.
                 </p>
               </div>
 
