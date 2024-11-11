@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -37,24 +37,24 @@ const CustomerSay = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
-        },
+          slidesToScroll: 1
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-        },
+          slidesToScroll: 1
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const reviews = [
@@ -64,7 +64,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar1.png",
+      image: "/images/avatar1.png"
     },
     {
       id: 2,
@@ -72,7 +72,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar2.png",
+      image: "/images/avatar2.png"
     },
     {
       id: 3,
@@ -80,7 +80,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar3.png",
+      image: "/images/avatar3.png"
     },
     {
       id: 4,
@@ -88,7 +88,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar1.png",
+      image: "/images/avatar1.png"
     },
     {
       id: 5,
@@ -96,8 +96,8 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar2.png",
-    },
+      image: "/images/avatar2.png"
+    }
   ];
 
   return (
@@ -119,7 +119,7 @@ const CustomerSay = () => {
               data-aos-duration="1000"
               className="text-3xl md:text-5xl font-bold text-white"
             >
-              What They're Talking
+              What They&apos;re Talking
             </p>
             <p
               data-aos="fade-up"
@@ -158,11 +158,13 @@ const CustomerSay = () => {
                   <div className="review-card p-5 md:p-12 flex flex-col items-center">
                     <p className="text-lg pt-5">{review.comments}</p>
                     <div className="flex items-center gap-2 pt-5 pb-12">
-                      <i class="fa-solid fa-star text-[#74EE15]"></i>
-                      <i class="fa-solid fa-star text-[#74EE15]"></i>
-                      <i class="fa-solid fa-star text-[#74EE15]"></i>
-                      <i class="fa-solid fa-star text-[#74EE15]"></i>
-                      <i class="fa-solid fa-star text-[#74EE15]"></i>
+                      <div>
+                        <i className="fa-solid fa-star text-[#74EE15]" />
+                        <i className="fa-solid fa-star text-[#74EE15]" />
+                        <i className="fa-solid fa-star text-[#74EE15]" />
+                        <i className="fa-solid fa-star text-[#74EE15]" />
+                        <i className="fa-solid fa-star text-[#74EE15]" />
+                      </div>
                     </div>
                   </div>
                   <div className="flex items-center gap-2 mt-2">

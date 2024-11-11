@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const LongTermForm = () => {
   const [formData, setFormData] = useState({
@@ -6,7 +6,7 @@ const LongTermForm = () => {
     email: "",
     companyName: "",
     services: "",
-    message: "",
+    message: ""
   });
 
   const [errors, setErrors] = useState({});
@@ -40,7 +40,7 @@ const LongTermForm = () => {
         email: "",
         companyName: "",
         services: "",
-        message: "",
+        message: ""
       });
       setErrors({});
     }
@@ -67,7 +67,7 @@ const LongTermForm = () => {
         </p>
         <div className="mb-6 flex items-center gap-3">
           <div className="bg-[#74EE15] text-white w-12 h-12 rounded-md flex items-center justify-center">
-            <i class="fa-solid fa-envelope text-2xl"></i>
+            <i className="fa-solid fa-envelope text-2xl" />
           </div>
           <div>
             <p className="text-[#74EE15] text-lg md:text-xl font-bold">
@@ -78,7 +78,7 @@ const LongTermForm = () => {
         </div>
         <div className="flex items-center gap-3">
           <div className="bg-[#74EE15] text-white w-12 h-12 rounded-md flex items-center justify-center">
-            <i class="fa-solid fa-phone text-2xl"></i>
+            <i className="fa-solid fa-phone text-2xl" />
           </div>
           <div>
             <p className="text-[#74EE15] text-lg md:text-xl font-bold">

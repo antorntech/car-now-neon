@@ -68,13 +68,13 @@ const Partners = () => {
 
   return (
     <div
-      className="bg-cover bg-center px-5"
+      className="bg-cover bg-center px-4"
       style={{ backgroundImage: `url('/images/partners-bg.jpg')` }}
     >
       <div className="max-w-screen-xl mx-auto h-full relative animate__animated animate__fadeInUp">
         <div className="w-full -mt-16">
           {/* Form Section */}
-          <div className="w-full bg-white px-5 pb-5 md:pb-2 py-2 rounded-2xl shadow-lg">
+          <div className="w-full bg-white rounded-2xl shadow-lg">
             <FleetForm
               formData={formData}
               handleFormChange={handleFormChange}
@@ -84,7 +84,7 @@ const Partners = () => {
           </div>
         </div>
         {/* Partners Section */}
-        <div className="py-10 space-y-5">
+        <div className="py-16 space-y-5">
           <div className="flex justify-center items-center">
             <button className="custom-shadow bg-white px-8 py-3 rounded-md">
               <Link

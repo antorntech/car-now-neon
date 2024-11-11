@@ -57,12 +57,12 @@ const Footer = () => {
               <div className="flex items-center gap-3 mt-5">
                 <Link>
                   <div className="group border-2 border-white hover:border-[#74EE15] px-[15px] py-2 transition-all duration-500">
-                    <i class="fa-brands fa-facebook-f text-[20px] text-white group-hover:text-[#74EE15] transition-all duration-500"></i>
+                    <i className="fa-brands fa-facebook-f text-[20px] text-white group-hover:text-[#74EE15] transition-all duration-500" />
                   </div>
                 </Link>
                 <Link>
                   <div className="group border-2 border-white hover:border-[#74EE15] px-3 py-2 transition-all duration-500">
-                    <i class="fa-brands fa-whatsapp text-[20px] text-white group-hover:text-[#74EE15] transition-all duration-500"></i>
+                    <i className="fa-brands fa-whatsapp text-[20px] text-white group-hover:text-[#74EE15] transition-all duration-500" />
                   </div>
                 </Link>
               </div>
@@ -94,7 +94,9 @@ const Footer = () => {
       <div className="bg-gradient-to-l from-[#74EE15] to-[#59c107]">
         <p className="text-white text-sm text-center p-5">
           © Car Now Rental - {year} | All Right Reserved | Developed With BY{" "}
-          <i class="fa fa-heart"></i> ANTOR & SANTO
+          <div>
+            <i className="fa fa-heart" /> ANTOR &amp; SANTO
+          </div>
         </p>
       </div>
     </>

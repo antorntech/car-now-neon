@@ -6,10 +6,10 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full flex flex-wrap items-center gap-4 py-6"
+      className="w-full flex flex-wrap items-end gap-4 lg:gap-y-8 p-5 lg:p-8"
     >
       <div className="min-w-[200px] flex-grow shrink-0">
-        <label className="block text-gray-200 font-semibold mb-2">
+        <label className="block text-gray-300 font-semibold mb-2">
           Pick-up Location
         </label>
         <select
@@ -31,7 +31,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
       </div>
 
       <div className="min-w-[200px] flex-grow shrink-0">
-        <label className="block text-gray-200 font-semibold mb-2">
+        <label className="block text-gray-300 font-semibold mb-2">
           Drop-off Location
         </label>
         <select
@@ -53,7 +53,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
       </div>
 
       <div className="relative min-w-[200px] flex-grow shrink-0">
-        <label className="block text-gray-200 font-semibold mb-2">
+        <label className="block text-gray-300 font-semibold mb-2">
           Pick-up Date
         </label>
         <DatePicker
@@ -72,7 +72,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
       </div>
 
       <div className="min-w-[200px] flex-grow shrink-0">
-        <label className="block text-gray-200 font-semibold mb-2">
+        <label className="block text-gray-300 font-semibold mb-2">
           Drop-off Date
         </label>
         <DatePicker
@@ -90,10 +90,10 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         />
       </div>
 
-      <div className="min-w-[200px] flex-grow shrink-0">
+      <div className="flex-grow shrink-0 flex justify-center">
         <button
           type="submit"
-          className="w-full whitespace-nowrap bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white font-semibold px-6 py-4 mt-2 md:mt-8 rounded-lg hover:opacity-90 transition duration-300"
+          className="whitespace-nowrap bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white font-semibold px-6 py-4 rounded-lg hover:opacity-90 transition duration-300"
         >
           Check availability
         </button>

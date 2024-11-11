@@ -76,7 +76,7 @@ const LongTerm = () => {
               className="mb-6 flex items-center gap-3 mt-5"
             >
               <div className="bg-[#74EE15] text-white w-16 h-16 rounded-md flex items-center justify-center">
-                <i class="fa-solid fa-envelope text-5xl"></i>
+                <i className="fa-solid fa-envelope text-5xl" />
               </div>
               <div>
                 <p className="text-[#74EE15] text-2xl md:text-3xl font-bold pb-1">
@@ -94,7 +94,7 @@ const LongTerm = () => {
               className="flex items-center gap-3"
             >
               <div className="bg-[#74EE15] text-white w-16 h-16 rounded-md flex items-center justify-center">
-                <i class="fa-solid fa-phone text-5xl"></i>
+                <i className="fa-solid fa-phone text-5xl" />
               </div>
               <div>
                 <p className="text-[#74EE15] text-2xl md:text-3xl font-bold pb-1">
@@ -142,7 +142,7 @@ const LongTerm = () => {
             style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

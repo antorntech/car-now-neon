@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -39,52 +39,52 @@ const AdventureSlider = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
-        },
+          slidesToScroll: 1
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-        },
+          slidesToScroll: 1
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const fleets = [
     {
       id: 1,
       name: "Hanging Out With The Clouds",
-      image: "/images/adventure1.jpg",
+      image: "/images/adventure1.jpg"
     },
     {
       id: 2,
       name: "Adventure in the mountains",
-      image: "/images/adventure2.jpg",
+      image: "/images/adventure2.jpg"
     },
     {
       id: 3,
       name: "Horseshoe Bend Parking",
-      image: "/images/adventure3.jpg",
+      image: "/images/adventure3.jpg"
     },
     {
       id: 4,
       name: "Levico, Italy",
-      image: "/images/adventure4.jpg",
+      image: "/images/adventure4.jpg"
     },
     {
       id: 5,
       name: "Arches National Park",
-      image: "/images/adventure5.jpg",
-    },
+      image: "/images/adventure5.jpg"
+    }
   ];
 
   return (
@@ -118,7 +118,7 @@ const AdventureSlider = () => {
                     {fleet.name}
                   </span>
                   <Link to="#0">
-                    <i class="fa-solid fa-arrow-right-long text-[#74EE15] text-xl"></i>
+                    <i className="fa-solid fa-arrow-right-long text-[#74EE15] text-xl"></i>
                   </Link>
                 </div>
               </div>

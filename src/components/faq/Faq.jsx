@@ -48,7 +48,7 @@ const FAQ = () => {
                 className="w-full text-left flex justify-between items-center py-4 focus:outline-none"
                 onClick={() => toggleFAQ(index)}
               >
-                <span className="text-lg md:text-xl font-semibold text-gray-600">
+                <span className="text-lg md:text-xl font-semibold text-gray-300">
                   {faq.question}
                 </span>
                 <svg
