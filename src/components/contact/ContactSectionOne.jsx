@@ -17,7 +17,7 @@ const ContactSectionOne = () => {
         <p className="inline-block text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] md:hidden text-transparent bg-clip-text">
           Send Your Message
         </p>
-        <p className="text-md w-full md:w-1/2 mx-auto mt-2 text-gray-600">
+        <p className="text-md w-full md:w-1/2 mx-auto mt-2 text-white">
           Our friendly and knowledgeable staff is always available to assist
           you, from initial inquiries to the end of your rental period. We're
           committed to providing exceptional customer service that exceeds your

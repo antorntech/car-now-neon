@@ -49,10 +49,7 @@ const ContactForm = () => {
         className="grid grid-cols-1 md:grid-cols-2 gap-6"
       >
         <div>
-          <label
-            className="block text-gray-700 font-medium mb-2"
-            htmlFor="name"
-          >
+          <label className="block text-white font-medium mb-2" htmlFor="name">
             Name<span className="text-[#74EE15]">*</span>
           </label>
           <input
@@ -71,10 +68,7 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label
-            className="block text-gray-700 font-medium mb-2"
-            htmlFor="mobile"
-          >
+          <label className="block text-white font-medium mb-2" htmlFor="mobile">
             Mobile Number<span className="text-[#74EE15]">*</span>
           </label>
           <input
@@ -93,10 +87,7 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label
-            className="block text-gray-700 font-medium mb-2"
-            htmlFor="email"
-          >
+          <label className="block text-white font-medium mb-2" htmlFor="email">
             Email Address<span className="text-[#74EE15]">*</span>
           </label>
           <input
@@ -116,7 +107,7 @@ const ContactForm = () => {
 
         <div>
           <label
-            className="block text-gray-700 font-medium mb-2"
+            className="block text-white font-medium mb-2"
             htmlFor="message"
           >
             Message

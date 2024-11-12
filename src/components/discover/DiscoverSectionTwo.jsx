@@ -12,7 +12,7 @@ const DiscoverSectionTwo = () => {
           <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
             Automate by Car
           </p>
-          <p className="mt-5 text-2xl text-gray-600">
+          <p className="mt-5 text-white">
             Venture off the beaten path and discover hidden coves, ancient
             ruins, and stunning coastal villages, all at your own pace
           </p>

@@ -6,7 +6,7 @@ const LongTermForm = () => {
     email: "",
     companyName: "",
     services: "",
-    message: ""
+    message: "",
   });
 
   const [errors, setErrors] = useState({});
@@ -40,7 +40,7 @@ const LongTermForm = () => {
         email: "",
         companyName: "",
         services: "",
-        message: ""
+        message: "",
       });
       setErrors({});
     }
@@ -73,7 +73,7 @@ const LongTermForm = () => {
             <p className="text-[#74EE15] text-lg md:text-xl font-bold">
               Send us a message
             </p>
-            <p className="text-gray-600">info@automateplus.com</p>
+            <p className="text-white">info@automateplus.com</p>
           </div>
         </div>
         <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const LongTermForm = () => {
             <p className="text-[#74EE15] text-lg md:text-xl font-bold">
               Setup a call
             </p>
-            <p className="text-gray-600">+35699206826</p>
+            <p className="text-white">+35699206826</p>
           </div>
         </div>
       </div>

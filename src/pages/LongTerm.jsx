@@ -33,7 +33,7 @@ const LongTerm = () => {
               <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
                 Rental Plans
               </p>
-              <p className="mt-5 text-2xl text-gray-600">
+              <p className="mt-5 text-white">
                 Our monthly rental plans offer significant savings compared to
                 short-term rentals, allowing you to stretch your travel budget
                 further. Tailored to suit your individual needs and travel
@@ -82,9 +82,7 @@ const LongTerm = () => {
                 <p className="text-[#74EE15] text-2xl md:text-3xl font-bold pb-1">
                   Send us a message
                 </p>
-                <p className="text-white md:text-gray-600 text-2xl">
-                  info@automateplus.com
-                </p>
+                <p className="text-white text-2xl">info@automateplus.com</p>
               </div>
             </div>
             <div
@@ -100,9 +98,7 @@ const LongTerm = () => {
                 <p className="text-[#74EE15] text-2xl md:text-3xl font-bold pb-1">
                   Setup a call
                 </p>
-                <p className="text-white md:text-gray-600 text-2xl">
-                  +35699206826
-                </p>
+                <p className="text-white text-2xl">+35699206826</p>
               </div>
             </div>
             <div

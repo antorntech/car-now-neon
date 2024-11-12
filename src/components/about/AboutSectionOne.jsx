@@ -33,7 +33,7 @@ const AboutSectionOne = () => {
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-easing="ease-in-sine"
-              className="my-5 text-gray-500"
+              className="my-5 text-white"
             >
               Our mission is to help our customers discover Malta in the best
               way possible. We believe that the best way to explore the island

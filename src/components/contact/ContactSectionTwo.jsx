@@ -17,8 +17,8 @@ const ContactSectionTwo = () => {
         </p>
       </div>
       <div className="max-w-screen-xl mx-auto mt-5 md:mt-8 lg:mt-12">
-        <div className="custom-shadow rounded-md p-5">
-          <p className="text-md md:text-xl w-full md:w-3/4 text-center mx-auto mt-2 text-gray-600">
+        <div className="custom-shadow2 rounded-md p-5">
+          <p className="text-md md:text-xl w-full md:w-3/4 text-center mx-auto mt-2 text-white">
             Have a question, need assistance, or simply want to share your Malta
             adventure with us? Feel free to leave us a message and we'll get
             back to you as soon as possible.

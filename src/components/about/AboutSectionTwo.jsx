@@ -26,7 +26,7 @@ const AboutSectionTwo = () => {
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-easing="ease-in-sine"
-              className="my-5 text-gray-600"
+              className="my-5 text-white"
             >
               Automate Plus Car Rental is <strong>your trusted partner</strong>{" "}
               for a seamless and enjoyable car rental experience in Malta,
@@ -46,7 +46,7 @@ const AboutSectionTwo = () => {
                 <li className="flex items-start gap-2">
                   <img src="/images/checklist.png" alt="" />
 
-                  <span className="mt-1 text-gray-600">
+                  <span className="mt-1 text-white">
                     <strong className="me-2">Convenience:</strong>
                     We make it easy for our customers to rent a car. We have a
                     wide network of locations across Malta, and we offer
@@ -56,7 +56,7 @@ const AboutSectionTwo = () => {
                 <li className="flex items-start gap-2">
                   <img src="/images/checklist.png" alt="" />
 
-                  <span className="mt-1 text-gray-600">
+                  <span className="mt-1 text-white">
                     <strong className="me-2">Affordability:</strong>
                     We offer competitive rates on a variety of vehicles. We also
                     offer a variety of discounts and promotions to help you save
@@ -66,7 +66,7 @@ const AboutSectionTwo = () => {
                 <li className="flex items-start gap-2">
                   <img src="/images/checklist.png" alt="" />
 
-                  <span className="mt-1 text-gray-600">
+                  <span className="mt-1 text-white">
                     <strong className="me-2">
                       Excellent Customer Service:
                     </strong>

@@ -28,7 +28,7 @@ const DiscoverSectionThree = () => {
               <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
                 Charms
               </p>
-              <p className="mt-5 text-2xl text-gray-600">
+              <p className="mt-5 text-white">
                 Our diverse range of vehicles, from compact city cars to
                 spacious minivans, caters to individual preferences and group
                 sizes, ensuring that your Malta adventure is tailored to your
@@ -49,7 +49,7 @@ const DiscoverSectionThree = () => {
               <p className="text-3xl md:text-5xl font-bold bg-white bg-gradient-to-r from-[#74EE15] via-[#74EE15] to-[#59c107] inline-block text-transparent bg-clip-text">
                 Malta Adventure
               </p>
-              <p className="mt-5 text-2xl text-gray-600">
+              <p className="mt-5 text-white">
                 Don't let car rental hinder your Maltese adventure. With Queen
                 Car Rental as your guide, you can focus on creating
                 unforgettable memories while exploring this captivating island.
