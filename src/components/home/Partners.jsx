@@ -15,7 +15,7 @@ const Partners = () => {
     pickupLocation: "",
     dropoffLocation: "",
     pickupDate: null,
-    dropoffDate: null
+    dropoffDate: null,
   });
 
   const handleFormChange = (e) => {
@@ -40,8 +40,8 @@ const Partners = () => {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {
-        "Content-Type": "application/json"
-      }
+        "Content-Type": "application/json",
+      },
     });
 
     if (res.data) {
@@ -51,7 +51,7 @@ const Partners = () => {
         pickupLocation: "",
         dropoffLocation: "",
         pickupDate: null,
-        dropoffDate: null
+        dropoffDate: null,
       });
       navigate("/fleet");
     }
@@ -63,7 +63,7 @@ const Partners = () => {
     { src: "/images/partners3.svg", alt: "Kia" },
     { src: "/images/partners4.svg", alt: "Hyundai" },
     { src: "/images/partners5.svg", alt: "Citroën" },
-    { src: "/images/partners6.svg", alt: "Peugeot" }
+    { src: "/images/partners6.svg", alt: "Peugeot" },
   ];
 
   return (
@@ -99,7 +99,7 @@ const Partners = () => {
             <div className="w-full h-[2px] bg-[#d4d4d469]"></div>
             <div className="w-full h-[2px] bg-[#d4d4d469]"></div>
           </div>
-          <div className="flex flex-wrap justify-center gap-5 mt-5">
+          <div className="flex flex-wrap justify-center gap-5 md:gap-10 mt-5">
             {partners.map((partner, index) => (
               <img
                 key={index}
