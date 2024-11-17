@@ -73,7 +73,7 @@ const LongTermForm = () => {
             <p className="text-[#74EE15] text-lg md:text-xl font-bold">
               Send us a message
             </p>
-            <p className="text-white">info@automateplus.com</p>
+            <p className="text-black">info@automateplus.com</p>
           </div>
         </div>
         <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const LongTermForm = () => {
             <p className="text-[#74EE15] text-lg md:text-xl font-bold">
               Setup a call
             </p>
-            <p className="text-white">+35699206826</p>
+            <p className="text-black">+35699206826</p>
           </div>
         </div>
       </div>
@@ -199,7 +199,7 @@ const LongTermForm = () => {
           </div>
 
           <div className="md:col-span-2">
-            <button className="px-5 py-2 bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white rounded-md shadow-lg">
+            <button className="px-5 py-3 bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white rounded-md shadow-lg">
               Send Message To Us
             </button>
           </div>

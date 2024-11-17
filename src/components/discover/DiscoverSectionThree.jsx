@@ -84,7 +84,7 @@ const DiscoverSectionThree = () => {
             <img
               src="/images/partners1.webp"
               alt=""
-              className="w-[150px] md:w-[300px]"
+              className="w-[150px] md:w-[300px] filter contrast-50"
               data-aos="fade-up"
               data-aos-duration="1000"
             />
