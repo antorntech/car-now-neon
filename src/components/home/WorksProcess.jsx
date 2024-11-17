@@ -2,7 +2,7 @@ import React from "react";
 
 const WorksProcess = () => {
   return (
-    <div className="w-full px-5 pt-[20px] md:pt-[50px] lg:pt-[100px]">
+    <div className="w-full px-5 pt-[80px] lg:pt-[100px]">
       <div className="w-full text-center">
         <div data-aos="fade-up" data-aos-duration="1000">
           <p className="text-3xl md:text-5xl font-bold text-white">
