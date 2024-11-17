@@ -4,6 +4,24 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <div onClick={onClick} className="next-arrow">
+      <i className=" fa-solid fa-angle-right text-white absolute  slick-icon-bg cursor-pointer z-30 rounded-full"></i>
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <div onClick={onClick} className="prev-arrow">
+      <i className="fa-solid fa-angle-left text-white absolute slick-icon-bg p-2 cursor-pointer z-30"></i>
+    </div>
+  );
+}
+
 const OurFleet = () => {
   const settings = {
     dots: false,
@@ -13,6 +31,8 @@ const OurFleet = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -72,7 +92,7 @@ const OurFleet = () => {
   ];
 
   return (
-    <div className="w-full px-5 our-fleets">
+    <div className="w-full px-5 our-fleets overflow-hidden">
       <div className="max-w-screen-xl mx-auto h-full flex justify-center items-center">
         <div className="w-full text-center">
           <div data-aos="fade-up" data-aos-duration="1000">
@@ -91,21 +111,23 @@ const OurFleet = () => {
           </p>
         </div>
       </div>
-      <div className="mt-12">
-        <Slider {...settings}>
-          {fleets.map((fleet, index) => (
-            <div key={index} className="text-center">
-              <img
-                src={fleet.image}
-                alt={fleet.category}
-                className="w-full md:w-4/5 mx-auto"
-              />
-              <button className="my-10 px-5 py-2 bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white rounded-md shadow-lg">
-                {fleet.name}
-              </button>
-            </div>
-          ))}
-        </Slider>
+      <div className="max-w-screen-xl mx-auto">
+        <div className="mt-12">
+          <Slider {...settings}>
+            {fleets.map((fleet, index) => (
+              <div key={index} className="text-center">
+                <img
+                  src={fleet.image}
+                  alt={fleet.category}
+                  className="w-full md:w-4/5 mx-auto"
+                />
+                <button className="my-10 px-5 py-2 bg-gradient-to-l from-[#74EE15] to-[#59c107] text-white rounded-md shadow-lg">
+                  {fleet.name}
+                </button>
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
     </div>
   );

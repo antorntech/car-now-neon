@@ -37,24 +37,24 @@ const CustomerSay = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const reviews = [
@@ -64,7 +64,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar1.png"
+      image: "/images/avatar1.png",
     },
     {
       id: 2,
@@ -72,7 +72,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar2.png"
+      image: "/images/avatar2.png",
     },
     {
       id: 3,
@@ -80,7 +80,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar3.png"
+      image: "/images/avatar3.png",
     },
     {
       id: 4,
@@ -88,7 +88,7 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar1.png"
+      image: "/images/avatar1.png",
     },
     {
       id: 5,
@@ -96,8 +96,8 @@ const CustomerSay = () => {
       designation: "Customer",
       comments:
         "I had a fantastic rental experience with Car Now Rental, and I would highly recommend them to anyone looking for a reliable and affordable car rental in Malta",
-      image: "/images/avatar2.png"
-    }
+      image: "/images/avatar2.png",
+    },
   ];
 
   return (
