@@ -48,7 +48,7 @@ const BigCar = () => {
                 alt="Support Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-[#74EE15] font-bold whitespace-nowrap">
+              <p className="text-xl text-[#74EE15] font-bold whitespace-wrap">
                 Multilingual Support
               </p>
             </div>
@@ -63,7 +63,7 @@ const BigCar = () => {
                 alt="Fleet Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-[#74EE15] font-bold whitespace-nowrap">
+              <p className="text-xl text-[#74EE15] font-bold whitespace-wrap">
                 Diverse fleet
               </p>
             </div>
@@ -78,7 +78,7 @@ const BigCar = () => {
                 alt="Customer Service Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-[#74EE15] font-bold whitespace-nowrap">
+              <p className="text-xl text-[#74EE15] font-bold whitespace-rap">
                 24/7 customer service
               </p>
             </div>
