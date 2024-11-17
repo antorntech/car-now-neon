@@ -8,7 +8,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
       onSubmit={handleSubmit}
       className="w-full flex flex-wrap items-end gap-4 lg:gap-y-8 p-5 lg:p-8"
     >
-      <div className="min-w-[200px] flex-grow shrink-0">
+      <div className="w-full md:min-w-[200px] flex-grow shrink-0">
         <label className="block text-gray-300 font-semibold mb-2">
           Pick-up Location
         </label>
@@ -30,7 +30,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         </select>
       </div>
 
-      <div className="min-w-[200px] flex-grow shrink-0">
+      <div className="w-full md:min-w-[200px] flex-grow shrink-0">
         <label className="block text-gray-300 font-semibold mb-2">
           Drop-off Location
         </label>
@@ -52,7 +52,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         </select>
       </div>
 
-      <div className="relative min-w-[200px] flex-grow shrink-0">
+      <div className="relative w-full md:min-w-[200px] flex-grow shrink-0">
         <label className="block text-gray-300 font-semibold mb-2">
           Pick-up Date
         </label>
@@ -71,7 +71,7 @@ const FleetForm = ({ formData, handleFormChange, locations, handleSubmit }) => {
         />
       </div>
 
-      <div className="min-w-[200px] flex-grow shrink-0">
+      <div className="w-full md:min-w-[200px] flex-grow shrink-0">
         <label className="block text-gray-300 font-semibold mb-2">
           Drop-off Date
         </label>
