@@ -38,7 +38,7 @@ const BigCar = () => {
         <div className="max-w-screen-xl mx-auto px-5 h-full flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {/* Feature Card 1 */}
-            <div className="bg-white w-full flex justify-center items-center gap-8 px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
+            <div className="bg-white w-full flex items-center gap-8 px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
@@ -48,12 +48,12 @@ const BigCar = () => {
                 alt="Support Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-[#74EE15] font-bold md:whitespace-nowrap text-right">
+              <p className="text-xl text-[#74EE15] font-bold md:whitespace-nowrap text-start">
                 Multilingual Support
               </p>
             </div>
             {/* Feature Card 2 */}
-            <div className="bg-white w-full flex justify-center items-center gap-8 px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
+            <div className="bg-white w-full flex items-center gap-8 px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
@@ -63,12 +63,12 @@ const BigCar = () => {
                 alt="Fleet Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-[#74EE15] font-bold md:whitespace-nowrap text-end">
+              <p className="text-xl text-[#74EE15] font-bold md:whitespace-nowrap text-start">
                 Diverse fleet
               </p>
             </div>
             {/* Feature Card 3 */}
-            <div className="bg-white w-full flex justify-center items-center gap-8 px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
+            <div className="bg-white w-full flex items-center gap-8 px-5 py-5 md:py-8 lg:py-10 rounded-md custom-shadow">
               <img
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
@@ -78,7 +78,7 @@ const BigCar = () => {
                 alt="Customer Service Image"
                 className="w-24 md:w-[128px] mr-4 hover:bg-gray-300 transition-all duration-300 rounded-md"
               />
-              <p className="text-xl text-[#74EE15] font-bold md:whitespace-nowrap text-right">
+              <p className="text-xl text-[#74EE15] font-bold md:whitespace-nowrap text-start">
                 24/7 customer service
               </p>
             </div>
