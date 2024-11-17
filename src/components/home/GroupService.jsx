@@ -27,7 +27,7 @@ const GroupService = () => {
               data-aos="fade-up"
               data-aos-delay="400"
               data-aos-easing="ease-in-sine"
-              className="my-5 text-gray-500"
+              className="my-5 text-white"
             >
               We believe that the best way to explore the island is by car, and
               we offer a variety of vehicles to suit all budgets and needs.
